@@ -1,0 +1,23 @@
+#title {
+  color: chocolate;
+  padding: 10px;
+  border-bottom: 3px solid navy;
+}
+
+#flexbox {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#loopy {
+  display: block;
+  width: 500px;
+}
+
+.active {
+  transform: rotate(360deg);
+  transition: all 1s;
+}
