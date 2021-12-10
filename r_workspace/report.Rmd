@@ -1,0 +1,29 @@
+---
+title: "Report"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 4/4분기 매출현황
+
+4/4분기에는 코로나의 영향으로 매출이 감소하였습니다.
+전분기 대비 30% 감소하였습니다.
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
